@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style>
+            #a1{height: 1080px;
+                width: 1655px; 
+                background-size: cover; 
+                background-repeat: no-repeat; 
+                background-image: url(1.jpg);}
+            #a2{height: 1080px; 
+                width: 1655px; 
+                background-size: cover; 
+                background-repeat: no-repeat; 
+                background-image: url(2.jpg);}
+            #a3{
+                height: 1080px; 
+                width: 1655px;
+                background-size: cover; 
+                background-repeat: no-repeat; 
+                background-image: url(3.jpg);}       
+            @{
+                height: 1080px;               這一行是高
+                width: 1655px;                這一行是寬
+                background-size: cover;       這一行是再有一張的圖片下，圖片寬高比不變，鋪滿整個容器的寬高，而圖片多出的部分則會被截掉
+                background-repeat: no-repeat; 這一行是讓圖片不再一直重複    
+                background-image: url(1.jpg); 這一行是置入圖片
+            }     
+        </style>
+    </head>
+    <body>
+        <div id="a1"></div>
+        <div id="a2"></div>
+        <div id="a3"></div>
+    </body>
+</html>
